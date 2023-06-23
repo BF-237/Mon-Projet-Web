@@ -1,0 +1,130 @@
+
+
+body{
+    background-color: rgba(255, 255, 255);
+    margin: 0;
+}
+
+header{
+    position: relative;
+    border-bottom: 3px solid rgba(196, 3, 3, 0.89);
+    width: 100%;
+    height: 80px;
+    background-color: rgba(172, 193, 207, 0.575);
+    font-family: Roboto;
+}
+
+.div,.div1,.div2{
+    display: inline-block;
+    position: absolute;
+}
+
+.div{
+    position: absolute;
+    height: 45px;
+    width: 15%;
+    margin-left: 10%;
+    margin-top: 18px;
+    border-radius: 100%;
+}
+
+.div1{
+    position: absolute;
+    margin-left: 62%;
+    margin-top: 40px;
+}
+
+.div2{
+    position: absolute;
+    margin-left: 85%;
+    margin-top: 35px;
+    display: block;
+    cursor: pointer;
+}
+
+.ul1{
+    text-align: center;
+    display: none;
+}
+
+.fa-solid{
+    font-size: 25px;
+}
+
+.fa-solid:hover{
+    color: blue;
+    margin-top: -5px;
+}
+
+.fa-solid:hover .ul1{
+    display: block;
+    position: absolute;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+ul > li{
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    text-align: left;
+    background-color: inherit;
+    font-size: 20px;
+    width: 100px;
+    color: rgb(0, 0, 0);
+    height: 25px;
+}
+
+.fa-sharp{
+    font-size: 15px;
+    margin-top: 6px;
+    margin-left: 2px;
+}
+
+li:hover{
+    color: rgb(236, 57, 13);
+}
+
+.ul1 > .li{
+    margin-top: 0px;
+    height: 35px;
+} 
+
+.li:hover li{
+    display: block;
+    position: absolute;
+    font-size: 16px;
+    background-color: #fff;
+    text-align: left;
+    width: 80px;
+    height: 40px;
+    padding: 5px;
+    margin-left: -50px;
+}
+.li:hover .li1{
+    display: block;
+    position: absolute;
+    margin-top: 0px;
+}
+.li:hover .li2{
+    display: block;
+    position: absolute;
+    margin-top: 24px;
+}
+.li:hover .li3{
+    display: block;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.ul2 > li{
+    display: none;
+    margin-left: -40px;
+    font-size: 15px;
+}

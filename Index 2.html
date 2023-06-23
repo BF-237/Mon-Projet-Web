@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="Code_CSS/Style.css">
+        <link rel="stylesheet" href="Code_CSS/Style Iphone.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function(){
+                $('#icon').click(function(){
+                    $('#icon').toggleClass('hover');
+                    $('ul').toggleClass('show');
+                });   
+            });
+        </script>
+        <title>Document</title>
+    </head>
+    <body>
+        <nav>
+            <label class="logo">Zone - Devv</label>
+            <ul class="menu">
+                <div class="bloc">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="list1"><a href="#" class="reclu">Services  <i class="fas fa-caret-down"></i></a>
+                    <ul class="sub-menu sub-menu1">
+                        <li class="sub1"><a href="#">Coding Apps</a></li>
+                        <li class="sub2"><a href="#">Coding Blogs</a></li>
+                        <li class="sub3"><a href="#">Web development</a></li>
+                    </ul>
+                </li>
+                <li class="list2"><a href="#" class="reclu">Contacts  <i class="fas fa-caret-down"></i></a>
+                    <ul class="sub-menu sub-menu2">
+                        <li class="sub1"><a href="#">Email:</a></li>
+                        <li class="sub2"><a href="#">Mobile:</a></li>
+                        <li class="sub3"><a href="#">Faceboock:</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Feedback</a></li>
+                </div>
+            </ul>
+            <label id="icon">
+                <i class="fas fa-bars"></i>
+            </label>
+        </nav>
+        <section>
+            <div class="content">
+                <div class="message"><span>Bienvenue sur</span> <span class="b">Zone - Devv</span></div>
+                <div class="info">Pour une meilleure expérience inscivez-vous ou connectez-vous</div>
+                <div class="bloc-but">
+                    <span><button><a href="#">Se Connecter</a></button></span>
+                    <span class="b">ou</span>
+                    <span><button><a href="#">S'inscrire</a></button></span>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <span class="span">
+                <div class="col-4 un">
+                    <span class="foot-logo span-un">Zone - Devv</span>
+                    <span class="span-info">Spécialisé dans de domaine de l'informatique plus  précisement
+                        la création de sites web Front-End dynamiques et plus ou moins 
+                        Back-End et le Design Graphic
+                    </span>
+                    <span>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                    </span>
+                </div>
+                <div class="col-4 deux">
+                    <span class="span-un">Produits</span>
+                    <span>Sites web dynamiques</span>
+                    <span>Maquettes de sites web</span>
+                    <span>Cartes de visite</span>
+                    <span>Identités visuelles</span>
+                    <span>Affiches publicitaires</span>
+                    <span>Flyers et autres</span>
+                </div>
+            </span>
+            <span class="span">
+                <div class="col-4 trois">
+                    <span class="span-un">Liens Utiles</span>
+                    <span>Wikipédia</span>
+                    <span>Google font</span>
+                    <span>Google image</span>
+                    <span>Font awsome</span>
+                    <span>OpenClassroom</span>
+                </div>
+                <div class="col-4 quatre">
+                    <span class="span-un">Addresses</span>
+                    <span><i class="fa-solid fa-location-dot"></i>Yaoundé-Obili-Chapelle</span>
+                    <span><i class="fa-solid fa-road"></i>Rue 7.083</span>
+                    <span><i class="fa-solid fa-at"></i>zone-devv-service@gmail.com</span>
+                </div>
+            </div></span>
+            <div class="bar"></div>
+            <div class="copy">Copy Right &copy Zone - Devv 2023 All right reserved</div>
+        </footer>
+    </body>
+</html>

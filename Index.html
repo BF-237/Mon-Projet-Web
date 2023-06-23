@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="Code_CSS/Style général.css">
+        <link rel="stylesheet" href="Code_CSS/Style IphoneSE.css" media="only screen and (width:375px) and (height:667px)">
+        <link rel="stylesheet" href="Code_CSS/Style IphoneXR.css" media="only screen and (width:414px) and (height:896px)">
+        <link rel="stylesheet" href="Code_CSS/Style Iphone12.css" media="only screen and (width:390px) and (height:844px)">
+        <title>Index</title>
+    </head>
+    <body>
+        <header>
+            <div class="div"><img src="Images/Logo_2.png" alt="Ici c'est le logo"/></div>
+            <div class="div1">
+                <ul class="ul1" id="liste">
+                    <li class="li">Pays <i class="fa-sharp fa-solid fa-caret-down"></i>
+                        <ul class="ul2">
+                            <li class="li1">Cameroun</li>
+                            <li class="li2">Guinnée</li>
+                            <li class="li3">Congo</li>
+                        </ul>
+                    </li>
+                    <li class="li">Région</li>
+                    <li class="li">Ville <i class="fa-sharp fa-solid fa-caret-down"></i>
+                        <ul class="ul2">
+                            <li class="li1">Yaoundé</li>
+                            <li class="li2">Libreville</li>
+                            <li class="li3">Brazaville</li>
+                        </ul>
+                    </li>
+                    <li class="li">Village</li>
+                    <li class="li">Quartier</li>
+                </ul>
+            </div>
+            <div class="div2">
+                <i class="fa-solid fa-bars" onmouseover="derouller('liste');" onmouseleave="enrouller('liste')"></i>
+            </div>
+        </header>
+        <!-- <div class="block">   
+            <nav>
+                <div class="div3">
+
+                </div>
+            </nav>
+            <section>
+                <div class="div4">
+                    <script>
+                        //document.write("Ici vont s'afficher les éléments du script");
+                    </script>
+                </div>
+            </section>
+        </div> 
+        <footer>
+            <div class="div5">
+
+            </div>
+        </footer> -->
+    </body>
+    <script type="text/javascript">
+        function derouller(classe){
+            var list = document.getElementsById(classe).InnerHTML;
+            list.setAttribute('style', "display: block;");
+        }
+        function enrouller(classe){
+            var list = document.getElementsByInn(classe).InnerHTML;
+            list.setAttribute('style', "display: none;");
+        }
+    </script>
+</html>
