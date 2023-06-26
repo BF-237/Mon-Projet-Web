@@ -1,6 +1,2 @@
 # Insersion du projet
-Le projet a été bien inséré dans le repertoire
-de Mon-Projet-Web de GitHub !!
-
-Modification fu fichier readme pour un test de 
-commande via Visual Studio Code !
+Ici c'est la branche créée pour les collaborateurs de mon mini projet en développement  
