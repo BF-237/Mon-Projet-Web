@@ -53,14 +53,32 @@
             </label>
         </nav>
         <section>
-            <div class="content">
-                <div class="message"><span>Bienvenue sur</span> <span class="b">Info - Zone</span></div>
-                <div class="info">Pour une meilleure expérience inscivez-vous ou connectez-vous</div>
-                <div class="bloc-but">
-                    <span><button><a href="Connexion.html">Se connecter</a></button></span>
-                    <span class="b">ou</span>
-                    <span><button><a href="Inscription.html">S'inscrire</a></button></span>
-                </div>
+            <div class="form-contain">
+                <form action="">
+                    <fieldset class="fieldset-inscript">
+                        <p class="titre">Inscription Info - Zone</p>
+                        <p>
+                            <label for="Nom">Nom </label>
+                            <label><input type="text" placeholder="Veuillez saisir votre nom !!!"></label>
+                        </p>
+                        <p>
+                            <label for="Email">Email </label>
+                            <label><input type="email" placeholder="Veuillez saisir votre email valide !!!"></label>
+                        </p>
+                        <p>
+                            <label for="Mot de passe">Mot de passe </label>
+                            <label><input type="password" placeholder="Veuillez saisir un mot de passe !!!"></label>
+                        </p>
+                        <p>
+                            <label for="Confirmation">Confirmation </label>
+                            <label><input type="password" placeholder="Veuillez Confirmer votre mot de passe !!!"></label>
+                        </p>
+                        <span><button class="action">Soumettre</button></span>
+                        <span class="ou">ou</span>
+                        <span><button class="action">Annuller</button></span>
+                        <p>Déja inscris ? <a href="Connexion.html">Connectes-toi</a></p>
+                    </fieldset>
+                </form>
             </div>
         </section>
         <footer>
